@@ -1,0 +1,34 @@
+.conatiner{
+  max-width: 779px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:25px;
+  flex-direction: column;
+  text-align: center;
+  margin: 6rem auto;
+}
+.conatiner>h3{
+  color: #000c10;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.conatiner>p{
+  color: #333;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.conatiner>button{
+  padding: 16.5px 64px;
+  border-radius: 32px;
+  background-color: #0078ff;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+
+}

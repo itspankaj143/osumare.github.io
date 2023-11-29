@@ -1,0 +1,57 @@
+.converthead{
+  color: #000c1a;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 4rem;
+  }
+  .mainbox{
+    display: flex;
+    max-width: 1278px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+  }
+  .box{
+  padding: 32px 16px;
+  flex-wrap: wrap;
+  flex-basis: 45%;
+  margin: 10px 0px;
+  padding: 20px 0;
+  text-align: center;
+  }
+  .box > h3{
+    color: #000c1a;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+  
+  }
+  .box p{
+    color: #333;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .box{
+      flex-basis: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .box > h3{
+      font-size: 24px;
+      line-height: 32px;   
+    }
+    .box p{
+      font-size: 16px;
+      line-height: 24px;   
+    }
+  }

@@ -1,0 +1,91 @@
+.form-header {
+	max-width: 752px;
+	margin: 0 auto;
+	text-align: center;
+}
+.form-header > h3 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	color: #000c1a;
+}
+.form-header > p {
+	font-size: 24px;
+	max-width: 700px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #333;
+	margin: 0 auto;
+}
+.sub-form {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 40px auto;
+	flex-wrap: wrap;
+	gap: 100px;
+}
+.btn {
+	max-width: 904px;
+	margin: 40px auto;
+	box-shadow: 4px 4px 10px lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub-form > .main_input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+}
+.sub-form input {
+	padding: 0px 5px;
+	height: 2rem;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #333;
+	outline: none;
+}
+.sub-form > .Message {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 15px !important;
+}
+.sub-form > .message {
+	gap: 20px;
+}
+.sub-form textarea {
+	padding: 15px 0 0 15px;
+	resize: none;
+	border-radius: 5px;
+}
+
+.btn > button {
+	width: 408px;
+	padding: 13px 136px;
+	border-radius: 32px;
+	background-color: #0078ff;
+	border: none;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 426px) {
+	.btn button {
+		width: 300px;
+		padding: 15px 100px;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 25px;
+	}
+}

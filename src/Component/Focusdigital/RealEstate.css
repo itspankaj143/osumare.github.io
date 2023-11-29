@@ -1,0 +1,83 @@
+.masteryhead h2 {
+	color: #000c1a;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	/* width: 839px; */
+}
+.masteryhead {
+	margin: 4rem;
+}
+
+.outset {
+	display: flex;
+	margin: 10px auto;
+	max-width: 80vw;
+	gap: 2rem;
+	/* flex-wrap: wrap; */
+	/* border: 1px solid red; */
+}
+
+.outset img {
+	max-width: 507.122px;
+	/* min-width: 375px; */
+	height: 342px;
+	/* width: 100%; */
+}
+
+.inset {
+	display: flex;
+	flex-direction: column;
+	width: 733px;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.inset h3 {
+	color: #000c13;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 44px;
+}
+
+.inset p {
+	color: #333;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.inset button {
+	padding: 16.5px 64px;
+	border-radius: 32px;
+	background-color: #0078ff;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+@media screen and (max-width: 426px) {
+	.outset img {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.outset {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.inset h3 {
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.inset p {
+		font-size: 18px;
+		line-height: 21px;
+	}
+}

@@ -1,0 +1,84 @@
+.accordian{
+  margin: 0 auto;
+  margin-top: 4rem;
+  /* border: 1px solid red; */
+  max-width: 800px ;
+}
+.accordian > h3{
+  color: #000c1a;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+.accordian > p{
+  color: #333;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.sub-accordian{
+  margin: 50px auto;
+  max-width: 550px;
+margin-bottom: 4rem;
+box-shadow: 4px 4px 10px lightgrey;
+border-radius: 3px;
+}
+
+.sub-accordian li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.sub-accordian label{
+  max-width: 525px;
+  height: 35px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sub-accordian li label i{
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 20px;
+  color: #010103;
+}
+
+.sub-accordian p{
+  color: #706f7b;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s;
+  max-width: 525px;
+  
+  
+}
+
+.sub-accordian input[type="radio"]{
+  display: none;
+}
+
+.sub-accordian input[type="radio"]:checked ~ p{
+  padding: 10px 20px;
+  max-height: 400px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+.sub-accordian input[type="radio"]:checked + label{
+  background: #0078ff !important;
+  border-radius: 3px;
+  color:white;
+}
+
+
